@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+	body{
+		background:#2a2a2a}
+
+	h2,ul{
+    color: white
+}
+ a{
+	color:#ffac05
+ }
+
+ .btn {
+    display: inline-block;
+    padding: 12px;
+    background: var(--main-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all .45s ease;
+}
+.btn:hover {
+    transform: scale(0.9);
+	background: var(--main-color);
+}
+.s-icons i{
+	color: white;
+}
+
+.navbar-nav > li > a {
+    color: white
+}
+.navbar-nav > li > a:hover{
+	color: #ffac05;
+}
+.logo{
+	text-decoration: none;
+}
+</style>
+<body>
+	<!-- ----Header Section------>
+	<header>
+		<a href="#" class="logo">My<span>Portfolio</span></a>
+	<nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+              <ul class="navbar-nav">
+                <li><a href="#home" class="nav-link" style="color: #ffac05;">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Uttam Nakade</h1>
+			<h3>Mern Stack <span>Developer.</span></h3>
+			<p>final year B.Tech - IT Student from Government College Of Engineering Amravati <br></p>
+			<div class="button">
+				<a href="#about" class="btn">About Me</a>
+			</div>
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/abc.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Website Designer!</h4>
+			<p>Hello , I am <b>Uttam Ghanshyam Nakade </b>, currently pursuing final year B.Tech in Information Technology from Government College of Engineering Amravati ,444604 , Maharashtra.<br>
+				I have expertice in domain of full stack Web Development and Salesforce Development . Currently I am a fresher and appearing for Campus placement at GCOEA. I am ready to be hierd by Companies</p>
+				<a href="#portfolio" class="btn">Explore Projects</a>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My</span>Services</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-mobile-alt'></i>
+			</div>
+			<h3>Web Development</h3>
+			<p>I am MERN stack Developer and I work on following tools<br>
+			<ul type="disc">
+				<li>React</li>
+				<li>MongoDB</li>
+				<li>Express.js</li>
+				<li>Node.js</li>
+				<li>Bootstrap , Tailwind</li>
+				<li>Html , CSS , Javascript</li>
+			</ul></p>
+			
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-code-alt'></i>
+			</div>
+			<h3>Salesforce Developement</h3>
+			<p>I am a Salesforce developer , I am having some experience in the domain of Salesforce , I have completed my virtual internship offered by Smartbridge. I have secured 30+ badges on Trailhead.
+				<br>
+				<a style="color: rgb(160, 108, 40);" href="https://www.salesforce.com/trailblazer/ia8285kq5zgdpwi2ef" target="_blank">View Profile</a>
+			</p>
+			
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-edit-alt'></i>
+			</div>
+			<h3>Programming</h3>
+			<p>I am proficient in C/C++ programming language<br>I works on :<br> 
+			<ul>
+				<li>C/C++</li>
+				<li>Java</li>
+				<li>Python</li>
+				<li>Javascript</li>
+				<li>etc..</li>
+			</ul>
+			</p>
+			
+		</div>
+	</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>latest</span>Project</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="row">
+			<img src="img/project1.png" >
+			<div class="layer">
+				<h5>My_Book</h5>
+				<p>Allows users to create their account and securely store and manupulate their notes on cloud.</p>
+				<a href="https://my-book-by-ugn.netlify.app/"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project2.png" >
+			<div class="layer">
+				<h5>Text-Case-Converter</h5>
+				<p>Allows users to handle the large text passage at once with provided features options.</p>
+				<a href="https://nakadeuttam.github.io/my-react-app/"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project3.png" >
+			<div class="layer">
+				<h5 style="color:black;">UGN-News</h5>
+				<p style="color:black;">News app to help user stay up to date with current affairs</p>
+				<a href="https://github.com/nakadeuttam/news_app_react"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>here you can reach out to me.</h4>
+		<p>I am from Gondia , Maharashtra , India 441701.</p>
+		<p>Currently pursuing my B.Tech in IT from GCOEA , Amravati 444604.</p>
+		<div class="list">
+			<li><a href="#">(+91) 8799940952</a></li>
+			<li><a href="#">nakadeuttam66@gmail.com</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="https://www.linkedin.com/in/uttam-nakade-54a852247/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+			<a href="https://github.com/nakadeuttam" target="_blank"><i class='bx bxl-github' ></i></a>
+			<a href="https://www.facebook.com/profile.php?id=100073788919787&mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook'></i></a>
+			<a href="https://x.com/nakade_uttam" target="_blank"><i class='bx bxl-twitter' ></i></a>
+			<a href="https://www.instagram.com/nakadeuttam96/" target="_blanks"><i class='bx bxl-instagram-alt' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>copyright &copy; Ugn.pvt.ltd</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+      <script>
+        document.querySelectorAll('.nav-link').forEach(function (navLink) {
+            navLink.addEventListener('click', function () {
+                var navbarCollapse = document.querySelector('.navbar-collapse');
+                var bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                bsCollapse.hide();
+            });
+        });
+      </script>
+</body>
+
+</html>
