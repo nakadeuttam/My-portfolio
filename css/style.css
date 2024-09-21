@@ -508,7 +508,18 @@ form textarea {
         grid-template-columns: 1fr;
     }
 }
-@media (max-width: 480px){
+@media (max-width:990px) {
+    .container-fluid > .temp > .navbar-toggler{
+        background-color: #ffac05;
+     }
+     header{
+        display: flex;
+        justify-content: space-between;
+         align-items: normal;
+     }
+}
+
+@media (max-width: 500px){
     header {
         display: flex;
         justify-content: space-between;
@@ -544,5 +555,19 @@ form textarea {
     }
     .navlist.open{
         top: 100%;
+    }
+
+    .about{
+        display: block;
+        height: max-content;
+    }
+    .contact{
+        display: block;
+    }
+    .container-fluid > .temp > .navbar-toggler{
+       background-color: #ffac05;
+    }
+    header{
+        align-items: normal;
     }
 }
